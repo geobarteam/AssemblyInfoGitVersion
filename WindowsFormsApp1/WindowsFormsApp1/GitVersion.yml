@@ -1,0 +1,6 @@
+assembly-versioning-scheme: MajorMinorPatchTag
+branches: {}
+ignore:
+  sha: []
+merge-message-formats: {}
+assembly-file-versioning-format: '{Major}.{Minor}.{Patch}.{WeightedPreReleaseNumber ?? 0}'
