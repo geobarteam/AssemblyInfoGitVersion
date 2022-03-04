@@ -6,3 +6,4 @@ merge-message-formats: {}
 assembly-file-versioning-format: '{Major}.{Minor}.{Patch}.{CommitsSinceVersionSource}'
 assembly-versioning-format: '{Major}.{Minor}.{Patch}.{CommitsSinceVersionSource}'
 assembly-informational-format: '{Major}.{Minor}.{Patch}.{CommitsSinceVersionSource}'
+mode: ContinuousDelivery
