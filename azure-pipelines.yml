@@ -31,7 +31,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
-
+- task: gitversion/setup@0
+  inputs:
+    versionSpec: '1.x'
 - task: gitversion/execute@0
   inputs:
     updateAssemblyInfo: true
