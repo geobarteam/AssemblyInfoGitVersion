@@ -329,3 +329,6 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /src/Migrations/deploy-staging.ps1
+
+# GitVersion
+gitversion.json
