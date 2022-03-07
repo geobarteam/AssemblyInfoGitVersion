@@ -1,20 +1,10 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
-
+Demo on how to update an assemblyinfo of classic .Net Framework with GitVersion and generate valid AssemblyFileVersions. 
+GitVersion uses by default SemVer to update assemblyversions.  By default GitVersion don't update the AssemblyFileVersion but you can configure it to do so.  This example demonstrate how to update your AssemblyVersion file without using semver but by incrementing the last number of your version by using the number of commits.
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Download and compile the code.
+Install GitVersion
+run: 
+dotnet-gitversion /updateassemblyinfo
+     or if you've not installed as Global .Net tool:
+dotnet-gitversion /updateassemblyinfo
